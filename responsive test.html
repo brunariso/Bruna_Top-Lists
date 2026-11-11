@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		body{font-family: system-ui;}
+
+		/* mobile first */
+/* 		@media (min-width: 640px){
+			.row {display: flex; gap: 1rem;}
+			.row > * {flex: 1;}
+		} */
+
+		.row {display: flex; gap: 1rem;}
+		.row > * {flex: 1;}
+
+		@media (max-width: 640px) {.row {flex-direction: column;}}
+
+		.row {
+			max-width: 1200px;
+			margin: auto;
+		}
+
+/* 
+		@media (min-width:666px) {body{background: pink;}}
+ 
+		@media (max-width:500px) {div {color: magenta};} */
+
+	</style>
+
+</head>
+
+<body>
+	
+<div class="row">
+	<div>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, corrupti? Consequuntur consequatur quasi aperiam officia ex, dolorem cumque incidunt itaque fugiat numquam quo laudantium id ducimus earum reprehenderit suscipit necessitatibus!</div>
+	<div>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Earum harum et non aliquam voluptas temporibus accusamus, incidunt optio adipisci ea itaque ducimus aspernatur, laboriosam, consequatur aut sint vel fuga repellendus.</div>
+</div>
+
+</body>
+
+</html>
